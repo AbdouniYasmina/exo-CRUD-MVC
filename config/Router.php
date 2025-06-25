@@ -13,39 +13,45 @@ class Routeur
         
         if(isset($get["route"]) && $get["route"] === "show_user")
         {   
-           // $controller -> show();
+           $controller -> show();
         }
         
         else if(isset($get["route"])&& $get["route"] === "create_user")
         {
-           // $controller -> create();
+           $controller -> create();
         }
         
         else if(isset($get["route"])&& $get["route"] === "check_create_user")
         {
-           // $controller -> checkCreate();
+           $controller -> checkCreate();
         }        
 
 
         else if(isset($get["route"])&& $get["route"] === "update_user")
         {
-           // $controller -> update();
+            $controller -> update();
         }           
         
 
         else if(isset($get["route"])&& $get["route"] === "check_update_user")
         {
-           // $controller -> checkUpdate();
+            $controller -> checkUpdate();
         }   
         
         else if(isset($get["route"])&& $get["route"] === "delete_user")
         {
-           // $controller -> delete();
+            $controller -> delete();
         }   
+        
+        else if(!isset($get["route"]))
+        {
+            $controller -> home();
+        }    
+        
         
         else 
         {
-           // $controller -> list();
+           $controller -> list();
         }
     }
 }

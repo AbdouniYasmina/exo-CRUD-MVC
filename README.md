@@ -74,3 +74,21 @@ le nom de la page pour les autres. Inspirez-vous des consignes de l'exercice sur
 
 Il y a plus de méthodes que de templates, que pouvez-vous en déduire ? Répondez-moi dans 
 un message sur Discord.
+
+
+
+## Étape 2
+
+Grâce aux déductions de l'étape précédente, vous allez pouvoir mettre en place le 
+squelette de votre `UserController`, créez donc la classe et ses méthodes. 
+Pour les méthodes dont vous avez déduit ce qu'elles doivent afficher, préparez 
+la variable `$route` et faites un `require` du layout.
+
+Une fois que c'est fait, vérifiez que vos routes affichent bien le bon template. 
+Comment pourriez-vous vous simplifier ces tests ?
+
+>💡 N'oubliez pas de require le fichier `controllers/UserController.php` dans 
+votre fichier `config/autoload.php`
+
+Une fois que vous avez terminé cette étape, envoyez-moi un message sur Discord 
+pour obtenir la suite des consignes.

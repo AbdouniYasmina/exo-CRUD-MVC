@@ -8,7 +8,7 @@ abstract class AbtractManager
     {
         $host = "db.3wa.io";
         $port = "3306";
-        $dbname = "yasminaabdouni_phpj6";
+        $dbname = "yasminaabdouni_crud_mvc";
         $connexionString = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8";
 
         $user = "yasminaabdouni";
@@ -21,4 +21,3 @@ abstract class AbtractManager
         );
     }
 }
-

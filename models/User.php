@@ -1,11 +1,10 @@
 <?php
   
    class User{
-       private ?int $id = null;
+        private ?int $id = null;
        
-       public function __construct(private string $email, private string 
-       $firstName, private string $lastName)
-        {
+        public function __construct(private string $email, private string 
+        $firstName, private string $lastName){
            
         }
       

@@ -92,3 +92,33 @@ votre fichier `config/autoload.php`
 
 Une fois que vous avez terminé cette étape, envoyez-moi un message sur Discord 
 pour obtenir la suite des consignes.
+
+
+
+## Étape 3
+
+Dans cette étape, je vais vous demander d'utiliser le logiciel de votre choix 
+(canva, Google Draw, MS Paint ...) pour créer un schéma de ce qui se passe lorsque 
+vous appelez l'URL `index.php?route=create_user`. Vous pouvez vous inspirer du schéma 
+de fonctionnement du MVC présent dans le cours.
+
+Une fois que votre schéma est terminé, envoyez-le-moi sur Discord pour obtenir la 
+suite des consignes.
+
+## Étape 4
+
+Nous avons maintenant un squelette de Controller et un schéma du fonctionnement 
+de la route `create_user`, nous allons donc tenter d'aller plus loin dans la mise 
+en place de cette route.
+
+Nous allons commencer par créer le modèle qui permet de représenter la table 
+`users` de notre base de données. 
+
+Dans le fichier `models/User.php` créez une classe `User` qui correspond à la 
+table `users` de votre base de données.
+
+>💡 N'oubliez pas de require le fichier `models/User.php` dans votre fichier 
+`config/autoload.php`
+
+Une fois que cette étape est terminée, envoyez-moi un message sur Discord pour 
+obtenir la suite des consignes.
